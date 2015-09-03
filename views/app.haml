@@ -1,0 +1,45 @@
+!!! 5
+%head
+  %title Dice Roller
+
+  %meta{name: 'viewport', content: 'width=device-width, initial-scale=1'}
+  %link{href: 'https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700', rel: 'stylesheet', type: 'text/css'}
+
+  :scss
+    * {
+      margin:0;
+      padding:0;
+    }
+
+    body, html {
+      font-family: 'Cinzel Decorative', cursive;
+      font-size:24px;
+      width:100%;
+      height:100%;
+    }
+
+    h1 {
+      text-align:center;
+      font-size:26px;
+      font-weight:700;
+    }
+
+    body > ol {
+      max-width:320px;
+      margin:1em auto 0;
+
+      list-style-position:inside;
+
+      > li {
+        margin:1em 0px;
+        text-align:center;
+
+        &:first-child {
+        margin-top:0;
+        }
+      }
+    }
+
+
+%body
+  = yield
