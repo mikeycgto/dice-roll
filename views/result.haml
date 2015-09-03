@@ -1,7 +1,7 @@
 %ol.rolls-results
   - @roll_results.each do |opts, rolls|
-    %h1 #{opts.first} sided #{opts.last} #{opts.last > 1 ? 'times' : 'time'}
     %li.roll-result
+      %h1 #{opts.first} sided #{opts.last} #{opts.last > 1 ? 'times' : 'time'}
       %ol.rolls
         - rolls.each do |roll|
           %li.roll #{roll.join(', ')}
