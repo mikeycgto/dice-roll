@@ -71,7 +71,7 @@ class RollDice < Sinatra::Base
       else render_plain_text
       end
 
-    else redirect 'http://diceroll.onsimplybuilt.com'
+    else redirect '/'
     end
   end
 end
