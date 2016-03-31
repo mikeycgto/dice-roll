@@ -9,3 +9,7 @@ of times to roll.
 For example:
 
     GET /:sides/:number_of_dice/:number_of_roles
+
+### Live App
+
+This application is hosted live on [Heroku](https://roll-them-die.herokuapp.com). Here is an [preview roll](https://roll-them-die.herokuapp.com/2/2/1/12/4/2).
